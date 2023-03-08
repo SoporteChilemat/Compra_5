@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jButton2" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jComboBox1" pref="218" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Proveedor:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Generar Excel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ingresar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="389">
+                <StringItem index="0" value="Elegir Proveedor..."/>
+                <StringItem index="1" value="3M"/>
+                <StringItem index="2" value="ABUS"/>
+                <StringItem index="3" value="ACEROS COX"/>
+                <StringItem index="4" value="ACETOGEN INDUSTRIAL"/>
+                <StringItem index="5" value="ACMA"/>
+                <StringItem index="6" value="ACMANET"/>
+                <StringItem index="7" value="ACO"/>
+                <StringItem index="8" value="ADIOFFICE"/>
+                <StringItem index="9" value="ADISOL "/>
+                <StringItem index="10" value="AGM"/>
+                <StringItem index="11" value="AGROFOR LTDA"/>
+                <StringItem index="12" value="AGROFOR S.A"/>
+                <StringItem index="13" value="AIROLITE"/>
+                <StringItem index="14" value="AISLANTES NACIONALES"/>
+                <StringItem index="15" value="AISLANTES PARRAL"/>
+                <StringItem index="16" value="AISLANTES VOLCAN"/>
+                <StringItem index="17" value="AISLAPANEL"/>
+                <StringItem index="18" value="AISLAPOL"/>
+                <StringItem index="19" value="ALAMBRES POTRO PURASANGRE"/>
+                <StringItem index="20" value="ALCAZAR"/>
+                <StringItem index="21" value="ALCHILE"/>
+                <StringItem index="22" value="ALFAPLAS"/>
+                <StringItem index="23" value="ALGIFOL"/>
+                <StringItem index="24" value="ALOXO"/>
+                <StringItem index="25" value="ALTE"/>
+                <StringItem index="26" value="AMERICAN SCREW"/>
+                <StringItem index="27" value="AMERPLAST"/>
+                <StringItem index="28" value="AMESTI"/>
+                <StringItem index="29" value="ANASAC"/>
+                <StringItem index="30" value="ANDES BIO-PELLETS S.A."/>
+                <StringItem index="31" value="ANDESRAP"/>
+                <StringItem index="32" value="ANTEROS"/>
+                <StringItem index="33" value="ANWO"/>
+                <StringItem index="34" value="ARAR"/>
+                <StringItem index="35" value="ARMACERO"/>
+                <StringItem index="36" value="ARREDONDO"/>
+                <StringItem index="37" value="ARTECOLA"/>
+                <StringItem index="38" value="ASERRADEROS CAMUR"/>
+                <StringItem index="39" value="ASERRADEROS MANUEL MU&#xd1;OZ"/>
+                <StringItem index="40" value="ASTEEL"/>
+                <StringItem index="41" value="AUSTRAL PLASTICOS"/>
+                <StringItem index="42" value="B Y P"/>
+                <StringItem index="43" value="BAHCO"/>
+                <StringItem index="44" value="BA&#xd1;O CENTER"/>
+                <StringItem index="45" value="BASH"/>
+                <StringItem index="46" value="BATA"/>
+                <StringItem index="47" value="BECTON"/>
+                <StringItem index="48" value="BERR Y NALLY SPA"/>
+                <StringItem index="49" value="BEST GARDEN"/>
+                <StringItem index="50" value="BIO BIO"/>
+                <StringItem index="51" value="BIOPLASTIC"/>
+                <StringItem index="52" value="BOSCA"/>
+                <StringItem index="53" value="BOSCH"/>
+                <StringItem index="54" value="BOTTAI"/>
+                <StringItem index="55" value="BUSEL"/>
+                <StringItem index="56" value="C&amp;M CHILE SPA"/>
+                <StringItem index="57" value="CAMUS"/>
+                <StringItem index="58" value="CANALES"/>
+                <StringItem index="59" value="CANONTEX"/>
+                <StringItem index="60" value="CARPENTER"/>
+                <StringItem index="61" value="CAVE"/>
+                <StringItem index="62" value="CEM"/>
+                <StringItem index="63" value="CEMENTOS LA UNION"/>
+                <StringItem index="64" value="CERAMICA SANTIAGO"/>
+                <StringItem index="65" value="CERAMICAS KANTU"/>
+                <StringItem index="66" value="CERAMICAS TORO SPA"/>
+                <StringItem index="67" value="CERAMITEC"/>
+                <StringItem index="68" value="CERRAJERIA MANUEL ADROVEZ"/>
+                <StringItem index="69" value="CEYS"/>
+                <StringItem index="70" value="CHILE PANEL S.A"/>
+                <StringItem index="71" value="CHILEMAT"/>
+                <StringItem index="72" value="CHRISTENSEN "/>
+                <StringItem index="73" value="CHRISTIAN DIAZ"/>
+                <StringItem index="74" value="CINTAC"/>
+                <StringItem index="75" value="CLEVER GROUP"/>
+                <StringItem index="76" value="CMPC"/>
+                <StringItem index="77" value="CNP"/>
+                <StringItem index="78" value="CODELPA"/>
+                <StringItem index="79" value="CODEPOL"/>
+                <StringItem index="80" value="COFLEX "/>
+                <StringItem index="81" value="COLIGUES CURIC&#xd3;"/>
+                <StringItem index="82" value="COMERCIAL DEVOTO"/>
+                <StringItem index="83" value="COMERCIAL ECOSTONE"/>
+                <StringItem index="84" value="COMERCIAL IRONTRUST"/>
+                <StringItem index="85" value="COMERCIAL MAG"/>
+                <StringItem index="86" value="COMERCIAL MOBIKIT"/>
+                <StringItem index="87" value="COMERCIAL PINARES"/>
+                <StringItem index="88" value="COMERCIAL REY"/>
+                <StringItem index="89" value="COMERCIAL VAISMAN"/>
+                <StringItem index="90" value="COMERCIALIZADORA LA DEHESA"/>
+                <StringItem index="91" value="COMERCIALIZADORA XP S.A"/>
+                <StringItem index="92" value="COMISA"/>
+                <StringItem index="93" value="CON CON MADERAS"/>
+                <StringItem index="94" value="CONDOR"/>
+                <StringItem index="95" value="CONSTRUFACE "/>
+                <StringItem index="96" value="CORBETTA"/>
+                <StringItem index="97" value="CORDILLERA"/>
+                <StringItem index="98" value="COSMOPLAS"/>
+                <StringItem index="99" value="COUNTACH S.A."/>
+                <StringItem index="100" value="COVISA"/>
+                <StringItem index="101" value="CREST"/>
+                <StringItem index="102" value="CTM"/>
+                <StringItem index="103" value="DAP DUCASSE"/>
+                <StringItem index="104" value="DARTEL"/>
+                <StringItem index="105" value="DECOEXPRESS "/>
+                <StringItem index="106" value="DECOGREEN"/>
+                <StringItem index="107" value="DECOGROUP"/>
+                <StringItem index="108" value="DERCO PARTS"/>
+                <StringItem index="109" value="DICOMAC"/>
+                <StringItem index="110" value="DIDEVAL"/>
+                <StringItem index="111" value="DISTINTEC"/>
+                <StringItem index="112" value="DISTRIBUIDORA ARIRANG"/>
+                <StringItem index="113" value="DOLEZYCH CHILE"/>
+                <StringItem index="114" value="DOWNLIGHT"/>
+                <StringItem index="115" value="DSC"/>
+                <StringItem index="116" value="DUCASSE"/>
+                <StringItem index="117" value="DUSCHY CHILE S.A."/>
+                <StringItem index="118" value="DVP"/>
+                <StringItem index="119" value="DYNAL "/>
+                <StringItem index="120" value="EAGON"/>
+                <StringItem index="121" value="ECOSA"/>
+                <StringItem index="122" value="EGLO ILUMINACION"/>
+                <StringItem index="123" value="EINHELL"/>
+                <StringItem index="124" value="ELECTROLUX"/>
+                <StringItem index="125" value="ELECTROPRODUCTOS"/>
+                <StringItem index="126" value="EMARESA DISTRIBUCION"/>
+                <StringItem index="127" value="EMARESA FORESTAL (STIHL)"/>
+                <StringItem index="128" value="EMASA "/>
+                <StringItem index="129" value="ENERGIZER"/>
+                <StringItem index="130" value="EPA CHILE"/>
+                <StringItem index="131" value="EPICA STAR"/>
+                <StringItem index="132" value="EQUIPOS DE RIEGO SPA."/>
+                <StringItem index="133" value="ESPOL S.A"/>
+                <StringItem index="134" value="ETERSOL"/>
+                <StringItem index="135" value="FABER-CASTELL"/>
+                <StringItem index="136" value="FADONEL"/>
+                <StringItem index="137" value="FAESIN"/>
+                <StringItem index="138" value="FAMASTIL"/>
+                <StringItem index="139" value="FANALOZA"/>
+                <StringItem index="140" value="FAS"/>
+                <StringItem index="141" value="FELTREX"/>
+                <StringItem index="142" value="FEMOGLAS"/>
+                <StringItem index="143" value="FERRAMENTA"/>
+                <StringItem index="144" value="FERRATI"/>
+                <StringItem index="145" value="FERRETERIA OHIGGINS"/>
+                <StringItem index="146" value="FERROMAT"/>
+                <StringItem index="147" value="FIBROCEMENTOS VOLCAN"/>
+                <StringItem index="148" value="FILMAMERICA"/>
+                <StringItem index="149" value="FIRE MASTER"/>
+                <StringItem index="150" value="FITTEX"/>
+                <StringItem index="151" value="FORESTAL COLLICURA LIMITADA"/>
+                <StringItem index="152" value="FORESTAL LEONERA"/>
+                <StringItem index="153" value="FORESTAL RIO CLARO"/>
+                <StringItem index="154" value="FORESTAL SANTA BLANCA"/>
+                <StringItem index="155" value="FORESTAL SANTA LORETO"/>
+                <StringItem index="156" value="FORESTAL Y AGRICOLA YUKON "/>
+                <StringItem index="157" value="FORMASUR"/>
+                <StringItem index="158" value="FUTUROIL"/>
+                <StringItem index="159" value="GAMMA COLOR"/>
+                <StringItem index="160" value="GARMENDIA"/>
+                <StringItem index="161" value="GEVEMAC"/>
+                <StringItem index="162" value="GILI"/>
+                <StringItem index="163" value="GLOBALMARKET"/>
+                <StringItem index="164" value="GOBANTES"/>
+                <StringItem index="165" value="GOLDEN PANEL CHILE SPA"/>
+                <StringItem index="166" value="GOMAHOGAR"/>
+                <StringItem index="167" value="GOTEX COMERCIAL LTDA."/>
+                <StringItem index="168" value="GRUPO LATYN"/>
+                <StringItem index="169" value="GRUPO TX"/>
+                <StringItem index="170" value="GYMSA"/>
+                <StringItem index="171" value="H.J"/>
+                <StringItem index="172" value="HELA"/>
+                <StringItem index="173" value="HENKEL"/>
+                <StringItem index="174" value="HOFFENS"/>
+                <StringItem index="175" value="HOJALATERIA FEGALV"/>
+                <StringItem index="176" value="HYDROPOL"/>
+                <StringItem index="177" value="IBERICA INDUSTRIAL"/>
+                <StringItem index="178" value="IDETEX"/>
+                <StringItem index="179" value="IMBRA"/>
+                <StringItem index="180" value="IMEL"/>
+                <StringItem index="181" value="IMPOGAR "/>
+                <StringItem index="182" value="IMPORPER"/>
+                <StringItem index="183" value="IMPORTADORA BS"/>
+                <StringItem index="184" value="IMPORTADORA VERTICAL"/>
+                <StringItem index="185" value="IMPROVAR"/>
+                <StringItem index="186" value="INCHALAM"/>
+                <StringItem index="187" value="INDEPP"/>
+                <StringItem index="188" value="INDURA"/>
+                <StringItem index="189" value="INDUSTRIAL Y COMERCIAL MAGNOLIA"/>
+                <StringItem index="190" value="INEX"/>
+                <StringItem index="191" value="INMAFOR"/>
+                <StringItem index="192" value="INPPA"/>
+                <StringItem index="193" value="INTEC"/>
+                <StringItem index="194" value="INVERSIERRA"/>
+                <StringItem index="195" value="INVERSIONES HARAS"/>
+                <StringItem index="196" value="IPPSA"/>
+                <StringItem index="197" value="IRRITEC"/>
+                <StringItem index="198" value="ISESA"/>
+                <StringItem index="199" value="ITAKA"/>
+                <StringItem index="200" value="ITC"/>
+                <StringItem index="201" value="JCE"/>
+                <StringItem index="202" value="JUNKERS"/>
+                <StringItem index="203" value="KALOP"/>
+                <StringItem index="204" value="KARCHER CHILE"/>
+                <StringItem index="205" value="KERSTING"/>
+                <StringItem index="206" value="KINDOR"/>
+                <StringItem index="207" value="KINGROY"/>
+                <StringItem index="208" value="KLINGSPOR"/>
+                <StringItem index="209" value="KLIPEN"/>
+                <StringItem index="210" value="KNAUF"/>
+                <StringItem index="211" value="KOSLAN"/>
+                <StringItem index="212" value="KRAUSSER CORDELES"/>
+                <StringItem index="213" value="LAN GLOBAL"/>
+                <StringItem index="214" value="LANCO"/>
+                <StringItem index="215" value="LAS DOS ESTRELLAS"/>
+                <StringItem index="216" value="LEGRAND"/>
+                <StringItem index="217" value="LEKER"/>
+                <StringItem index="218" value="LEMACO"/>
+                <StringItem index="219" value="LIOI"/>
+                <StringItem index="220" value="LIZCAL"/>
+                <StringItem index="221" value="LOCTITE"/>
+                <StringItem index="222" value="LP CHILE"/>
+                <StringItem index="223" value="LUCAS BLANDFORD"/>
+                <StringItem index="224" value="MACROTEL"/>
+                <StringItem index="225" value="MADERAS ARAUCO"/>
+                <StringItem index="226" value="MADERAS BRAVO"/>
+                <StringItem index="227" value="MADERAS EL PANGUE"/>
+                <StringItem index="228" value="MADERAS INSIGNE"/>
+                <StringItem index="229" value="MADERAS MARTIN"/>
+                <StringItem index="230" value="MADERAS SANTA ELISA"/>
+                <StringItem index="231" value="MADERERA PROSPERIDAD"/>
+                <StringItem index="232" value="MAKITA"/>
+                <StringItem index="233" value="MALLATEC"/>
+                <StringItem index="234" value="MAR AZUL"/>
+                <StringItem index="235" value="MAR DEL SUR"/>
+                <StringItem index="236" value="MARIENBERG"/>
+                <StringItem index="237" value="MASISA"/>
+                <StringItem index="238" value="MASONITE"/>
+                <StringItem index="239" value="MASTERFIBRA"/>
+                <StringItem index="240" value="MATRIPLAST "/>
+                <StringItem index="241" value="MAXZYME"/>
+                <StringItem index="242" value="MC GARCIA"/>
+                <StringItem index="243" value="MC2 SPA"/>
+                <StringItem index="244" value="MEC"/>
+                <StringItem index="245" value="MEDESTUK"/>
+                <StringItem index="246" value="MEDIDORES MAIPO"/>
+                <StringItem index="247" value="MEGAPOL"/>
+                <StringItem index="248" value="MELON"/>
+                <StringItem index="249" value="METALAMERICA"/>
+                <StringItem index="250" value="METALHSA"/>
+                <StringItem index="251" value="MILAN"/>
+                <StringItem index="252" value="MOLDECOR"/>
+                <StringItem index="253" value="MOSAICO"/>
+                <StringItem index="254" value="MULTIACEROS"/>
+                <StringItem index="255" value="MULTIVENDOR"/>
+                <StringItem index="256" value="NAUTIKA CHILE"/>
+                <StringItem index="257" value="NEOX"/>
+                <StringItem index="258" value="NEWTRADE"/>
+                <StringItem index="259" value="NIBSA"/>
+                <StringItem index="260" value="NILFISK "/>
+                <StringItem index="261" value="NOVOPLAST"/>
+                <StringItem index="262" value="ODIS"/>
+                <StringItem index="263" value="P.G.I.C."/>
+                <StringItem index="264" value="PANELES LEONERA LIMITADA"/>
+                <StringItem index="265" value="PAREX CHILE"/>
+                <StringItem index="266" value="PARKSOLAR"/>
+                <StringItem index="267" value="PASSOL"/>
+                <StringItem index="268" value="PEGATANKE"/>
+                <StringItem index="269" value="PERFILAM"/>
+                <StringItem index="270" value="PERFIMET"/>
+                <StringItem index="271" value="PERSER"/>
+                <StringItem index="272" value="PETRILAC"/>
+                <StringItem index="273" value="PETROFLEX"/>
+                <StringItem index="274" value="PIMA"/>
+                <StringItem index="275" value="PINTUREC"/>
+                <StringItem index="276" value="PIZARRE&#xd1;O"/>
+                <StringItem index="277" value="PLASMET"/>
+                <StringItem index="278" value="PLASTICORD"/>
+                <StringItem index="279" value="PLAY PLAZA"/>
+                <StringItem index="280" value="POLCURA"/>
+                <StringItem index="281" value="POLI"/>
+                <StringItem index="282" value="POLINASA"/>
+                <StringItem index="283" value="POLISAK"/>
+                <StringItem index="284" value="POLPAICO"/>
+                <StringItem index="285" value="POLYTERM"/>
+                <StringItem index="286" value="POLYTEX"/>
+                <StringItem index="287" value="PREFABRICADOS GRAU"/>
+                <StringItem index="288" value="PREMET"/>
+                <StringItem index="289" value="PRESERVA"/>
+                <StringItem index="290" value="PRIMATERM "/>
+                <StringItem index="291" value="PRODALUM"/>
+                <StringItem index="292" value="PROHESA"/>
+                <StringItem index="293" value="PROIBER CHILE"/>
+                <StringItem index="294" value="PROTEKTA"/>
+                <StringItem index="295" value="PUERTAS FORTALEZA SPA"/>
+                <StringItem index="296" value="PUERTAS IGAL"/>
+                <StringItem index="297" value="PUERTAS WOODS"/>
+                <StringItem index="298" value="QRUBBER"/>
+                <StringItem index="299" value="QUIMICA UNIVERSAL"/>
+                <StringItem index="300" value="R Y R"/>
+                <StringItem index="301" value="RAYTAN"/>
+                <StringItem index="302" value="REDBO"/>
+                <StringItem index="303" value="REDES CABOS E HILOS"/>
+                <StringItem index="304" value="REFRACTARIOS IUNGE"/>
+                <StringItem index="305" value="REGALOGAR"/>
+                <StringItem index="306" value="REHAU"/>
+                <StringItem index="307" value="REIFOX"/>
+                <StringItem index="308" value="REMA"/>
+                <StringItem index="309" value="RENGOALUM"/>
+                <StringItem index="310" value="RENNER"/>
+                <StringItem index="311" value="RF LUMBER LTDA."/>
+                <StringItem index="312" value="RGM"/>
+                <StringItem index="313" value="RHONA"/>
+                <StringItem index="314" value="RIO BAKER"/>
+                <StringItem index="315" value="ROBLAN"/>
+                <StringItem index="316" value="RODILLOS VALFRAN "/>
+                <StringItem index="317" value="ROLLMIX"/>
+                <StringItem index="318" value="ROMERAL"/>
+                <StringItem index="319" value="RUST OLEUM"/>
+                <StringItem index="320" value="SALOMON SACK"/>
+                <StringItem index="321" value="SAN DIEGO"/>
+                <StringItem index="322" value="SANDE"/>
+                <StringItem index="323" value="SCANAVINI"/>
+                <StringItem index="324" value="SCHNEIDER ELECTRIC"/>
+                <StringItem index="325" value="SENSUS"/>
+                <StringItem index="326" value="SERVICOMP"/>
+                <StringItem index="327" value="SHERWIN-WILLIAMS"/>
+                <StringItem index="328" value="SIGMA"/>
+                <StringItem index="329" value="SIKA"/>
+                <StringItem index="330" value="SILCOSIL"/>
+                <StringItem index="331" value="SIMPSON STRONG"/>
+                <StringItem index="332" value="SINDELEN"/>
+                <StringItem index="333" value="SISTEMAS HIDRAULICOS SPA"/>
+                <StringItem index="334" value="SOLCROM"/>
+                <StringItem index="335" value="SOPROCAL"/>
+                <StringItem index="336" value="SOUDAL"/>
+                <StringItem index="337" value="STANLEY BLACK AND DECKER"/>
+                <StringItem index="338" value="SURTIVENTAS"/>
+                <StringItem index="339" value="TAB"/>
+                <StringItem index="340" value="TAJAMAR"/>
+                <StringItem index="341" value="TAP"/>
+                <StringItem index="342" value="TAUMM"/>
+                <StringItem index="343" value="TEBISA"/>
+                <StringItem index="344" value="TECHNOPLUS"/>
+                <StringItem index="345" value="TECNO TRUSS S.A."/>
+                <StringItem index="346" value="TEJERAS Y LADRILLERAS DEL SUR LTDA"/>
+                <StringItem index="347" value="TEKA"/>
+                <StringItem index="348" value="TEMPEST"/>
+                <StringItem index="349" value="TEMSA"/>
+                <StringItem index="350" value="TESA"/>
+                <StringItem index="351" value="THC CHILE"/>
+                <StringItem index="352" value="TIGRE"/>
+                <StringItem index="353" value="TITAN"/>
+                <StringItem index="354" value="TOOLTEK SPA"/>
+                <StringItem index="355" value="TOYAMA"/>
+                <StringItem index="356" value="TRAMONTINA"/>
+                <StringItem index="357" value="TRANSACO"/>
+                <StringItem index="358" value="TRESS"/>
+                <StringItem index="359" value="TRICOLOR"/>
+                <StringItem index="360" value="TRICON PELLET"/>
+                <StringItem index="361" value="TROTTER"/>
+                <StringItem index="362" value="TUHOME SPA"/>
+                <StringItem index="363" value="TULSA S.A"/>
+                <StringItem index="364" value="URGELL"/>
+                <StringItem index="365" value="UTRON "/>
+                <StringItem index="366" value="UYUSTOOLS"/>
+                <StringItem index="367" value="V.H."/>
+                <StringItem index="368" value="VECTOR LTDA."/>
+                <StringItem index="369" value="VENTUS"/>
+                <StringItem index="370" value="VERSACHEM"/>
+                <StringItem index="371" value="VICSA"/>
+                <StringItem index="372" value="VICTORINOX"/>
+                <StringItem index="373" value="VIDRIOS LIRQUEN"/>
+                <StringItem index="374" value="VIELCO"/>
+                <StringItem index="375" value="VIELVA"/>
+                <StringItem index="376" value="VILLALBA"/>
+                <StringItem index="377" value="VINILIT"/>
+                <StringItem index="378" value="VNX LTDA"/>
+                <StringItem index="379" value="VOLCAN"/>
+                <StringItem index="380" value="VULCANO"/>
+                <StringItem index="381" value="WD-40"/>
+                <StringItem index="382" value="WESSER"/>
+                <StringItem index="383" value="WILLIAMSON"/>
+                <StringItem index="384" value="WINKLER"/>
+                <StringItem index="385" value="WOODS CHILE"/>
+                <StringItem index="386" value="WULKAN"/>
+                <StringItem index="387" value="WURTH CHILE"/>
+                <StringItem index="388" value="ZAGREB"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
